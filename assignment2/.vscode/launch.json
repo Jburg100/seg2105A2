@@ -1,0 +1,81 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ServerConsole",
+            "request": "launch",
+            "mainClass": "ServerConsole",
+            "projectName": "assignment2",
+            "args": [
+                "7095"
+            ]
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ClientConsole",
+            "request": "launch",
+            "mainClass": "ClientConsole",
+            "projectName": "assignment2",
+            "args": [
+                "7095"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "ClientConsole2",
+            "request": "launch",
+            "mainClass": "ClientConsole2",
+            "projectName": "assignment2",
+            "args": [
+                "7095"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "EchoServer",
+            "request": "launch",
+            "mainClass": "EchoServer",
+            "projectName": "assignment2",
+            "args": [
+                "1234"
+            ]
+        }
+    ]
+}
